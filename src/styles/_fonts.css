@@ -1,2 +1,12 @@
-/* Use this file to import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(Scancardium.woff2);
+
+@font-face {
+  font-family: Scancardium;
+  src: url(Scancardium.woff2);
+}
+
+@font-face {
+  font-family: 'Scancardium';
+  src:  url('Scancardium.woff2') format('woff2'),
+        url('Scancardium.woff')  format('woff');
+}
